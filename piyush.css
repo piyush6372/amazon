@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    width: 1900px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.adress-1st{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.adress-2nd{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    height:50px;
+    width:700px;
+    border-radius: 5px;
+    width:60%;
+}
+.nav-search:hover{
+    border: 1.5px solid orange;
+}
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+}
+.input{
+    width:100%;
+    font-size: larger;
+    border:none
+}
+.search-icon{
+    width:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+span{
+    font-size: 0.9rem;
+
+}
+.nav-second{
+    font-size: 0.95;
+    font-weight: 700;
+}
+.nav-signin:hover{
+    border: 1.5px solid white;
+}
+.nav-return:hover{
+    border: 1.5px solid white;
+}
+.cart{
+    font-size: 2em;
+}
+.cart:hover{
+    border: 1.5px solid white;
+}
+.sec-div{
+    height: 50px;
+    width: 1900px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.options p{
+    display: inline;
+    margin-left: 10px;
+}
+.options p:hover{
+    border: 1.5px solid white;
+}
+.options{
+    width:60%;
+}
+.all{
+    margin-right: 20%;
+}
+.all:hover{
+    border: 1.6px solid white;
+}
+.shop:hover{
+    border:1.5px solid white;
+}
+.shop{
+    font-weight: 700;
+    margin-right: 5%;
+}
+.hero-section{
+    background-image: url(Amazon_image3.jpg);
+    background-size: cover;
+    height:500px;
+    width: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-para{
+    background-color: white;
+    color: black;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    margin-bottom: 40px;
+    width:1500px;
+    border-radius: 5px;
+
+}
+.hero-para a{
+    color: #007185;
+}
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #eeeee4;
+    background-size: 1800px;
+}
+.box{
+    border:2px solid black;
+    height:400px;
+    width:18%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-top: 15px;
+}
+.box-image{
+    background-image: url(box1.jpg);
+    background-image: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box1 p{
+    margin-bottom: 5%;
+    color: #007185;
+    }
+.box-contain{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box2-image{
+    background-image: url(box2.jpg);
+    background-image: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box3-image{
+    background-image: url(box3.jpg);
+    background-image: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box4-image{
+    background-image: url(box4.jpg);
+    background-image: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box2 p{
+    margin-bottom: 5%;
+    color: #007185;
+    }
+.box3 p{ margin-bottom: 5%;
+    color: #007185;
+}
+.box4 p{
+    margin-bottom: 5%;
+    color: #007185;
+    }
+ .foot-panel1{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }         
+ .foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height:400px;
+    display: flex;
+    justify-content: space-evenly;
+ }  
+ .foot-panel2 ul{
+    display: block;
+ }
+ ul{
+    margin-top: 1.6rem;
+ }
+ ul p{
+    margin-top: 0.82rem;
+ }
